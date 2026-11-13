@@ -2,11 +2,26 @@
 
 **Eigenständiges Python-Datenanalyseprojekt** zur Verknüpfung von Fahrzeugbestandsdaten mit Versicherungstypklassen über **Herstellerschlüsselnummer (HSN)** und **Typschlüsselnummer (TSN)**. Ziel ist die nachvollziehbare Aufbereitung, deskriptive Analyse und Visualisierung von Bestands- und Typklassendaten.
 
-## Beispiel aus der bisherigen Analyse
+## Ausgewählte Ergebnisse
+
+Die folgenden Diagramme sind aus der **ursprünglichen explorativen Notebook-Auswertung** übernommen. Sie zeigen deskriptive Zusammenhänge, keine individuelle Unfallwahrscheinlichkeit und keine direkten Versicherungsbeiträge. **Die Ergebnisse wurden noch nicht unabhängig mit den Original-Rohdaten reproduziert.**
+
+### Fahrzeugbestand nach Haftpflicht-Typklasse
+
+![Verteilung des erfassten Pkw-Bestands über Haftpflicht-Typklassen](results/chart_bestand_je_klasse.png)
+
+### Häufige Modellbezeichnungen und ihre gewichteten Typklassen
+
+![Die 20 meistvertretenen Modellbezeichnungen mit Fahrzeugbeständen und mittleren Haftpflicht-Typklassen](results/chart_deutschlands_flotte.png)
+
+### Kompakter Modellauszug
 
 ![Bestandsgewichtete Haftpflicht-Typklassen der 15 häufigsten Modellbezeichnungen](results/modellgruppen_top15_notebook.svg)
 
-Die Abbildung ist aus **zwischengespeicherten Ergebnissen des ursprünglichen Jupyter-Notebooks** erstellt. Die Werte sind **nicht erneut mit den Originaldateien validiert**. Es handelt sich um aggregierte Modellbezeichnungen, nicht um kontrollierte Vergleiche einzelner Fahrzeugmodelle oder Fahrergruppen. Der ursprüngliche Notebook-Lauf meldete für die verknüpften Datensätze 47.446.751 Fahrzeuge; das ist nicht mit dem gesamten deutschen Pkw-Bestand gleichzusetzen.
+Die Darstellungen unterscheiden sich in ihrer Aggregation (z. B. Modellbezeichnung, Herstellerschlüssel). Der ursprüngliche Notebook-Lauf meldete für verknüpfte Datensätze rund 47,4 Mio. Fahrzeuge; diese Teilmenge ist nicht automatisch mit dem vollständigen deutschen Pkw-Bestand gleichzusetzen.
+
+**[Alle zehn Originaldiagramme ansehen – einschließlich Herstellervergleichen, Leistungsanalyse, Blasendiagramm und Heatmaps](results/GALERIE.md)**
+
 
 ## Vorgehen
 
