@@ -1,0 +1,22 @@
+# Rohdaten und nicht geprüfte veröffentlichungsfähige Quelldateien
+/data/*.csv
+/data/*.ams
+/data/*.xlsx
+/typen.csv
+/fz6_*.xlsx
+*.ams
+
+# Aus großen Datentabellen abgeleitete Exporte
+/results/*.csv
+/results/*.png
+!results/README.md
+
+# Python / lokale Umgebung
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
